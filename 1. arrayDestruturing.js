@@ -24,6 +24,7 @@ const restaurant = {
   },
 };
 
+// TODO Array Destructuring
 // DESC it can pick the 1st and the 2nd item from the array
 const [first, second] = restaurant.categories;
 // console.log(first, second); // Output: Italian Pizzeria
