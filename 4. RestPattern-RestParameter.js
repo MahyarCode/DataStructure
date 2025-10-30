@@ -73,7 +73,7 @@ console.log(sat, weekdays); // Output: {open: 0, close: 24} {thu: {â€¦}, fri: {â
 // NOTE in spread operation, we used "..." to pass each element as individual argument of a function
 // DESC Receives multiple argument and pack it into an array
 const add = function (...numbers) {
-  console.log(numbers);
+  console.log('Number: ', numbers);
   let total = numbers.reduce((acc, cur) => {
     return acc + cur;
   }, 0);
