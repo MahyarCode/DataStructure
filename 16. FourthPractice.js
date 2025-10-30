@@ -54,4 +54,3 @@ button.addEventListener('click', function () {
     totalEmoji++;
   }
 });
-// const data = document.querySelector('.textarea').textContent;
